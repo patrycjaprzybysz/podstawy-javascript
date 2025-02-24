@@ -32,4 +32,18 @@ Twoim zadaniem jest napisanie funkcji, która przeanalizuje tablicę liczb i zwr
 ## 🚀 Jak zacząć?  
 1. Sklonuj repozytorium na swój komputer lub otwórz w IDE na gitHub
 2. Napisz kod w `index.js`.  
-3. Uruchom testy komendą:  
+3. Uruchom testy komendą:
+4. Gdy wszystko działa, zatwierdź (`git commit`) i wypchnij (`git push`).  
+
+## 🔍 Przykłady działania  
+
+```js
+console.log(analyzeNumbers([1, 2, 3, 4, 5]));  
+// { sum: 15, evenCount: 2, oddCount: 3, min: 1, max: 5 }
+
+console.log(analyzeNumbers([-10, 0, 10, 20]));  
+// { sum: 20, evenCount: 3, oddCount: 1, min: -10, max: 20 }
+
+console.log(analyzeNumbers([]));  
+// null
+
